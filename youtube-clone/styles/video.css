@@ -42,6 +42,7 @@
 
 .thumb-row {
     margin-bottom: 12px;
+    position: relative;
 }
 
 .video-grid {
@@ -49,5 +50,41 @@
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     column-gap: 16px;
     row-gap: 40px;
+
+}
+
+.video-time {
+    background-color: rgba(0, 0, 0, 0.623);
+    font-family: Roboto,Arial;
+    font-size: 12px;
+    font-weight: 500;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 4px;
+    color: white;
+    position: absolute;
+    bottom: 8px;
+    right: 5px;
+
+
+}
+
+.video-live {
+    background-color: rgba(204, 0, 0, 0.9);
+    font-family: Roboto,Arial;
+    font-size: 12px;
+    font-weight: 500;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 4px;
+    color: white;
+    position: absolute;
+    bottom: 8px;
+    right: 5px;
+
 
 }
