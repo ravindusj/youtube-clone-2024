@@ -4,14 +4,14 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: white;
+    background-color: rgb(33,33,33);
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     border-bottom-width: 1px;
     border-bottom-style: solid;
-    border-bottom-color: rgb(222, 222, 241);
+    border-bottom-color: rgb(33,33,33);
 
 
 }
@@ -122,10 +122,10 @@
 
 .right-section {
     width: 180px;
-    margin-right: 20px;
+    margin-right: 15px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-shrink: 0;
 }
 
@@ -164,12 +164,12 @@
 
 .notifications-bubble {
     position: absolute;
-    top: -2px;
-    right: -5px;
+    top: -3px;
+    right: -10px;
     background-color: rgb(200, 0, 0);
     color: white;
     font-family: Roboto, Arial;
-    font-size: 10px;
+    font-size: 11px;
     padding-left: 5px;
     padding-right: 5px;
     padding-top: 2px;
@@ -178,8 +178,8 @@
 }
 
 .my-channel-logo {
-    height: 32px;
-    border-radius: 16px;
+    height: 34px;
+    border-radius: 17px;
 }
 
 .hamburger {

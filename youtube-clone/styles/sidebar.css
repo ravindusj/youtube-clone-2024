@@ -1,5 +1,6 @@
 .sidebar {
-    background-color: white;
+    background-color: rgb(33,33,33);
+    color:white;
     position: fixed;
     left: 0;
     bottom: 0;
