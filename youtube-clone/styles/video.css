@@ -15,6 +15,7 @@
     margin-bottom: 12px;
     font-size: 14px;
     font-weight: 500;
+
 }
 
 .channelname,
@@ -47,10 +48,41 @@
 
 .video-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr  ;
     column-gap: 16px;
     row-gap: 40px;
 
+}
+
+@media (max-width: 500px) {
+    .video-grid {
+        grid-template-columns:  1fr;
+    }
+}
+
+/*@media (min-width: 500px) and (max-width: 1085px) {
+    .video-grid {
+        grid-template-columns:  1fr 1fr ;
+    }
+}
+
+@media (min-width: 1085px) and (max-width: 1410px) {
+    .video-grid {
+        grid-template-columns:  1fr 1fr 1fr;
+    }
+}
+
+@media (min-width: 1410px) and (max-width: 1755px) {
+    .video-grid {
+        grid-template-columns:  1fr 1fr 1fr 1fr ;
+    }
+}*/
+
+@media (min-width: 1755px) {
+    .video-grid {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+    }
+    
 }
 
 .video-time {
