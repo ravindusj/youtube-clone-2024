@@ -4,7 +4,7 @@ Welcome to my **YouTube Homepage Clone** project! 🎉
 
 I recreated the **YouTube homepage** using just **HTML** and **CSS**, focusing on keeping the design simple yet faithful to the original interface. If you’re interested in how YouTube’s front page layout is structured, this project provides a minimalist, clean recreation without any JavaScript or complex frameworks.
 
-![YouTube Homepage Preview]([https://your-image-url.com](https://shorturl.at/b2hoB))
+![YouTube Homepage Preview]([https://shorturl.at/b2hoB])
 
 ---
 
